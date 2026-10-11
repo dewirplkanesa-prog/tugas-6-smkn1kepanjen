@@ -1,258 +1,169 @@
 <!DOCTYPE html>
-<html lang="id">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio pribadi Dewi Lestari">
-    <title>Dewi Lestari | Portfolio</title>
+    <title>Portofolio - Dewi Lestari</title>
     <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+CA+Guides&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <!--menu-->
+    <nav>
+        <div class="wrapper">
+            <div class="logo">Dewi Lestari</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#tentang-saya">Tentang Saya</a></li>
+                    <li><a href="#kemampuan">Keahlian</a></li>
+                    <li><a href="#projects">proyek saya</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
 
-    <!--WELCOME SCREEN-->
-    <section class="welcome-screen" id="welcomeScreen">
-        <div class="welcome-circle circle-one"></div>
-        <div class="welcome-circle circle-two"></div>
-        <div class="welcome-content">
-            <p class="welcome-label">WELCOME TO MY</p>
-            <h1 id="welcomeLanguage" class="welcome-language">Selamat Datang</h1>
-            <p class="welcome-subtitle">STUDENT PORTFOLIO</p>
-            <p class="welcome-description">
-                Selamat datang di portfolio saya. Di sini kamu bisa melihat 
+                <button type="button" id="btnToggleTema" class="theme-button">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!--hero / walpapper-->
+    <header>
+        <div class="header-opacity"></div>
+        <div class="header-jumbotron">
+
+            <div class="foto">
+                <img src="css/profile.jpg" alt="">
+            </div>
+
+            <h4>Selamat Datang Di Portofolio Saya</h4>
+            <h5>Hallo saya Dewi lestari di sini kamu bisa melihat 
                 perjalanan belajar, kemampuan, dan berbagai project yang saya 
                 kerjakan selama menjadi pelajar.
-            </p>
-            <button
-                class="welcome-button"
-                id="enterButton">
-                <span>Masuk ke Portfolio</span>
-                <span class="button-arrow">→</span>
-            </button>
+            </h5>
+            <p>silahkan klik tombol di bawah ini</p>
+            <a href="#tentang-saya" class="button button-xl">Cari Tau Tentang Saya</a>
+        </div>
+    </header>
+    
+    <!--statistic-->
+    <section id="statistic">
+        <div class="wrapper">
+            <div>
+                <p>4 Keahlian</p>
+                <small>Dikembangkan melalui pembelajaran dan praktik.</small>
+            </div>
+            <div>
+                <p>3 project</p>
+                <small>proyek kelas industri.</small>
+            </div>
+            <div>
+                <p>Jurusan</p>
+                <small>Rekayasa Perangkat Lunak.</small>
+            </div>
         </div>
     </section>
 
-    <!--HEADER-->
-    <header class="header" id="header">
-        <div class="container nav-container">
-            <a href="#home" class="logo">DEWI
-                <span>.</span>
-            </a>
+    <!--premium course-->
+    <section id="tentang-saya">
+        <div class="wrapper">
+            <div>
+                <h4>Tentang Saya</h4>
+                <p>
+                Saya Dewi Lestari, seorang pelajar Rekayasa Perangkat Lunak
+                 dari SMKN 1 KEPANJEN yang tertarik dengan dunia teknologi dan
+                  pengembangan website. Saya sedang mempelajari HTML, CSS, JavaScript, 
+                  serta dasar-dasar desain antarmuka.
+                </p>
 
-            <nav class="navigation" id="navigation">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">My skills</a>
-                <a href="#projects">Project</a>
-                <a href="#contact">Contact</a>
-            </nav>
+                <p>
+                Bagi saya, belajar coding bukan hanya tentang menulis kode, 
+                tetapi juga tentang mencoba, membuat kesalahan, mencari 
+                solusi, dan terus mengembangkan kemampuan. Portfolio ini 
+                menjadi tempat untuk mendokumentasikan perjalanan belajar 
+                dan berbagai project yang telah saya buat.
+                </p>
 
-            <div class="nav-actions">
-                <button class="theme-button" id="themeButton" aria-label="Ubah tema">☾</button>
-                <button class="menu-button" id="menuButton" aria-label="Buka menu">☰</button>
+                <p>
+                Saya sedang mengembangkan
+                kemampuan di bidang web
+                development menggunakan
+                HTML, CSS, dan JavaScript.
+                </p>
+
+            </div>
+            <div>
+                <div class="informasi-item">
+                    <span>Nama</span>
+                    <strong>DEWI LESTARI</strong>
+                </div>
+
+                <div class="informasi-item">
+                    <span>Sekolah</span>
+                    <strong>SMKN 1 KEPANJEN</strong>
+                </div>
+
+                <div class="informasi-item">
+                    <span>Email</span>
+                    <strong>dewirplkanesa@gmail.com</strong>
+                </div>
+
+                <div class="informasi-item">
+                    <span>Keahlian</span>
+                    <strong>HTML, CSS, JavaScript, Git&GitHub</strong>
+                </div>
             </div>
         </div>
-    </header>
+        
+    </section>
 
-    <!--MAIN-->
-    <main>
+    <!--kemampuan-->
+    <section id="kemampuan">
+        <div class="wrapper">
+                <h4>skills</h4>
+                <p>Kemampuan Saya</p>
 
-        <!--HOME-->
-        <section class="hero" id="home">
-            <div class="hero-background background-one"></div>
-            <div class="hero-background background-two"></div>
-
-            <div class="container hero-container">
-                <!-- FOTO -->
-                <div class="hero-photo reveal-left">
-                    <div class="photo-frame">
-                        <div class="photo-border"></div>
-                        <img src="profile.jpg" alt="Foto Dewi Lestari" class="profile-photo" id="profilePhoto">
-                        <div class="photo-placeholder" id="photoPlaceholder">
-                            <span>YOUR</span>
-                            <strong>PHOTO</strong>
+                <div class="grid">
+                    <div class="item">
+                        <img src="css/text.png" alt="html">
+                        <div class="item-detail">
+                            <p>HTML</p>
+                            <span>Mempelajari struktur dasar halaman website menggunakan HTML.</span>
                         </div>
-                        <div class="photo-number">01</div>
-                    </div>
-                </div>
-
-                <!-- TEXT -->
-                <div class="hero-content reveal-right">
-                    <div class="availability">
-                        <span class="status"></span>
-                         Currently Learning
                     </div>
 
-                    <p class="hello">Halo, saya</p>
-                    <h1 class="hero-name">Dewi
-                        <span>Lestari.</span>
-                    </h1>
-
-                    <h2 class="hero-job">Student & Web Development Learner</h2>
-
-                    <p class="hero-description">
-                        Saya adalah seorang pelajar yang memiliki ketertarikan pada 
-                        teknologi, desain, dan pembuatan website. Portfolio ini berisi 
-                        perjalanan belajar, project, dan hal-hal yang saya pelajari selama 
-                        mengembangkan kemampuan saya.
-                    </p>
-
-                    <div class="hero-buttons">
-                        <a href="#projects" class="button primary-button">Lihat Proyek saya
-                            <span>↗</span>
-                        </a>
-
-                        <a href="#contact" class="button secondary-button">Hubungi Saya</a>
-                    </div>
-
-                    <div class="social-links">
-                        <a href="https://github.com/dewirplkanesa-prog" target="_blank">GitHub</a>
-                        <a href="https://www.instagram.com/alien_jatim?stkn=MTJ0dHRkZWZicTJobA==" target="_blank">Instagram</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="scroll-down">
-                <span>SCROLL</span>
-                <div></div>
-            </div>
-        </section>
-
-        <!--ABOUT-->
-        <section class="section about-section" id="about">
-            <div class="container">
-                <div class="section-title reveal">
-                    <p>01 — Tentang saya</p>
-                    <h2>Tentang
-                        <span>saya.</span>
-                    </h2>
-                </div>
-
-                <div class="about-grid">
-                    <div class="about-content reveal-left">
-                        <p class="about-large">
-                            Halo! Saya Dewi Lestari, seorang pelajar Rekayasa 
-                            Perangkat Lunak dari SMKN 1 KEPANJEN yang tertarik 
-                            dengan dunia teknologi dan pengembangan website. 
-                            Saya sedang mempelajari HTML, CSS, JavaScript, serta
-                             dasar-dasar desain antarmuka.
-                        </p>
-
-                        <p>
-                            Bagi saya, belajar coding bukan hanya tentang 
-                            menulis kode, tetapi juga tentang mencoba, 
-                            membuat kesalahan, mencari solusi, dan terus 
-                            mengembangkan kemampuan. Portfolio ini menjadi 
-                            tempat untuk mendokumentasikan perjalanan belajar 
-                            dan berbagai project yang telah saya buat.
-                        </p>
-
-                        <p>
-                            Saya sedang mengembangkan
-                            kemampuan di bidang web
-                            development menggunakan
-                            HTML, CSS, dan JavaScript.
-                        </p>
-
-                        <p>
-                            Saya senang mempelajari hal
-                            baru dan mencoba membuat
-                            berbagai project website
-                            sebagai bagian dari proses
-                            belajar.
-                        </p>
-                    </div>
-
-                    <div class="about-information reveal-right">
-                        <div class="information-item">
-                            <span>NAMA</span>
-                            <strong>Dewi Lestari</strong>
+                    <div class="item">
+                        <img src="css/css.png" alt="css">
+                        <div class="item-detail">
+                            <p>CSS</p>
+                            <span>Mempelajari cara membuat tampilan website menjadi lebih menarik, rapi, dan responsif.</span>
                         </div>
+                    </div>
 
-                        <div class="information-item">
-                            <span>SEKOLAH</span>
-                            <strong>SMKN 1 KEPANJEN</strong>
+                    <div class="item">
+                        <img src="css/java-script.png" alt="JavaScript">
+                        <div class="item-detail">
+                            <p>JavaScript</p>
+                            <span>Mempelajari dasar-dasar JavaScript untuk membuat website menjadi lebih interaktif.</span>
                         </div>
+                    </div>
 
-                        <div class="information-item">
-                            <span>EMAIL</span>
-                            <strong>dewirplkanesa@gmail.com</strong>
-                        </div>
-
-                        <div class="information-item">
-                            <span>KEAHLIAN</span>
-                            <strong>HTML / CSS / JavaScript</strong>
+                    <div class="item">
+                        <img src="css/gitlab.png" alt="GitHub">
+                        <div class="item-detail">
+                            <p>Git & GitHub</p>
+                            <span>Mempelajari cara-cara menggunakan Git & GitHub seperti cara merepositorykan web.</span>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!--SKILLS-->
-        <section class="section skills-section" id="skills">
-            <div class="container">
-                <div class="section-title reveal">
-                    <p>02 — MY SKILLS</p>
-                    <h2>Kemampuan
-                        <span>saya.</span>
-                    </h2>
-                </div>
-
-                <div class="skills-grid">
-                    <div class="skill-card reveal">
-                        <div class="skill-icon">&lt;/&gt;</div>
-                        <h3>HTML</h3>
-                        <p>Mempelajari struktur dasar halaman website menggunakan HTML.</p>
-                        <div class="skill-progress">
-                            <span style="width: 90%;"></span>
-                        </div>
-                        <small>90%</small>
-                    </div>
-
-                    <div class="skill-card reveal">
-                        <div class="skill-icon">#</div>
-                        <h3>CSS</h3>
-                        <p>
-                            Mempelajari cara membuat tampilan website menjadi 
-                            lebih menarik, rapi, dan responsif.
-                        </p>
-                        <div class="skill-progress">
-                            <span style="width: 85%;"></span>
-                        </div>
-                        <small>85%</small>
-                    </div>
-
-                    <div class="skill-card reveal">
-                        <div class="skill-icon">JS</div>
-                        <h3>JavaScript</h3>
-                        <p>
-                            Mempelajari dasar-dasar JavaScript untuk 
-                            membuat website menjadi lebih interaktif.
-                        </p>
-                        <div class="skill-progress">
-                            <span style="width: 75%;"></span>
-                        </div>
-                        <small>75%</small>
-                    </div>
-
-                    <div class="skill-card reveal">
-                        <div class="skill-icon">GIT</div>
-                        <h3>Git & GitHub</h3>
-                        <p>
-                            Mempelajari cara-cara menggunakan Git & GitHub
-                            seperti cara merepositorykan web.
-                        </p>
-                        <div class="skill-progress">
-                            <span style="width: 80%;"></span>
-                        </div>
-                        <small>80%</small>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--PROJECTS-->
+    <!--PROJECTS-->
         <section class="section projects-section" id="projects">
             <div class="container">
                 <div class="section-title reveal">
@@ -265,8 +176,8 @@
                 <div class="projects-grid">
                     <article class="project-card reveal">
                         <div class="project-image project-one">
-                            <span class="project-number">01</span>
-                            <img src="project1.jpg" alt="profile digital">
+                            <span class="project-number"></span>
+                            <img src="css/project1.jpg" alt="profile digital">
                         </div>
 
                         <div class="project-content">
@@ -289,8 +200,8 @@
 
                     <article class="project-card reveal">
                         <div class="project-image project-two">
-                            <span class="project-number">02</span>
-                            <img src="project2.jpg" alt="responsif website">
+                            <span class="project-number"></span>
+                            <img src="css/project2.jpg" alt="responsif website">
                         </div>
                         <div class="project-content">
                             <small>WEB DESIGN</small>
@@ -312,8 +223,8 @@
 
                     <article class="project-card reveal">
                         <div class="project-image project-three">
-                            <span class="project-number">03</span>
-                            <img src="project3.jpg" alt="Interactive Website" >
+                            <span class="project-number"></span>
+                            <img src="css/project3.jpg" alt="Interactive Website" >
                         </div>
 
                         <div class="project-content">
@@ -337,12 +248,12 @@
             </div>
         </section>
 
-        <!--CONTACT-->
-        <section class="section contact-section" id="contact">
+
+    <!--contact-->
+    <section class="section contact-section" id="contact">
             <div class="container">
                 <div class="contact-box reveal">
-                    <div class="contact-circle"></div>
-                    <p class="contact-label">04 — CONTACT</p>
+                    <p class="contact-label">CONTACT</p>
                     <h2>Hubungi
                         <span>Saya.</span>
                     </h2>
@@ -355,24 +266,19 @@
                     <a href="mailto:dewirplkanesa@gmail.com" class="email">dewirplkanesa@gmail.com</a>
 
                     <div class="contact-links">
-                        <a href="https://www.instagram.com/alien_jatim?stkn=MTJ0dHRkZWZicTJobA==" target="_blank">Instagram</a>
-                        <a href="https://github.com/dewirplkanesa-prog" target="_blank">GitHub</a>
+                        <a href="https://www.instagram.com/alien_jatim?stkn=MTJ0dHRkZWZicTJobA==" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/dewirplkanesa-prog" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+    </section>
 
-    <!--FOOTER-->
-    <footer class="footer">
-        <div class="container footer-content">
-            <p>©
-                <span id="year"></span>
-                Dewi Lestari.
-                Student Portfolio.
-            </p>
-            <a href="#home">Kembali ke atas ↑</a>
-        </div>
+    <footer>
+        <div class="wrapper">&copy; 2026 Dewi Lestari. Student Portfolio.</div>
     </footer>
 
     <script src="script.js"></script>
